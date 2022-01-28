@@ -1,0 +1,47 @@
+/* UNIDADE DE MEDIDA */
+
+/*
+
+*/
+
+.centimetro {
+  width: 10cm;
+  height: 0.5cm;
+  background-color: rgb(253, 204, 204);
+}
+
+.milimetro {
+  width: 100mm;
+  height: 5mm;
+  background-color: rgb(248, 239, 199);
+}
+
+.pixel {
+  width: 378px;
+  height: 20px;
+  background-color: rgb(185, 228, 160);
+}
+
+.ponto {
+  width: 283.5pt;
+  height: 15pt;
+  background-color: rgb(74, 221, 118);
+}
+
+.polegadas {
+  width: 3.94in;
+  height: 0.2in;
+  background-color: rgb(221, 74, 160);
+}
+
+.em {
+  width: 23.6em;
+  height: 1em;
+  background-color: rgb(127, 93, 219);
+}
+
+.rem {
+  width: 23.6rem;
+  height: 1rem;
+  background-color: rgb(125, 146, 240);
+}

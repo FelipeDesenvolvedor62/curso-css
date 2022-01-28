@@ -1,0 +1,36 @@
+/* SELETORES */
+
+/*
+Os seletores são responsável por selecionar Tags, Classes, Id e atributos para adicionar a estilização
+A baixo segue os tipos de seletores
+*/
+
+/* Seletor UNIVERSAL aplica o css em todos elementos da pagína */
+* {
+  background-color: rgb(223, 182, 182);
+}
+
+/* Seletor por TAG aplica o css em todas as tags*/
+h1 {
+  font-size: 50px;
+}
+
+/* Seletor por CLASSE aplica o css para todas as classes*/
+.seletor1 {
+  color: green;
+}
+
+/* Seletor por ID aplica o css para todos os id*/
+#seletor2 {
+  color: blue;
+}
+
+/* Seletor por ATRIBUTO aplica para todos os atributos */
+[type="text"] {
+  border-radius: 50px;
+}
+
+/* Seletor por pseudo elemento */
+[type="text"]:focus {
+  border: solid 5px green;
+}

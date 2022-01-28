@@ -1,0 +1,24 @@
+/* PSEUDO-CLASSE */
+
+/*
+*/
+
+.hover-elemento:hover {
+  color: red;
+}
+
+.ativar:active {
+  font-size: 40px;
+  color: rgb(18, 28, 170);
+}
+
+.selecao:checked {
+  font-size: 40px;
+  color: green;
+}
+
+.selecao:checked {
+  height: 21px;
+  width: 21px;
+  color: blue;
+}
