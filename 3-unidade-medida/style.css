@@ -1,7 +1,7 @@
 /* UNIDADE DE MEDIDA */
 
 /*
-
+Absolutas
 */
 
 .centimetro {
@@ -34,6 +34,26 @@
   background-color: rgb(221, 74, 160);
 }
 
+/*
+Relativas
+ <div class="">Porcentagem (%)</div>
+    <div class="em">M (em)</div>
+    <div class="rem">Root M (rem)</div>
+    <div class="">Unidade do Caractere (ch)</div>
+    <div class="x">X (ex)</div>
+    <div class="">Largura da Janela de Exibição (vw)</div>
+    <div class="vh">Altura da Janela de Exibição (vh)</div>
+    <div class="vmin">Janela de Exibição Mínima (vmin)</div>
+    <div class="vmax">Janela de Exibição Máxima (vmax)</div>
+    <div class="fr">Fração Restante (fr)</div>
+*/
+
+.porcentagem {
+  width: 77.2%;
+  height: 1em;
+  background-color: rgb(71, 129, 95);
+}
+
 .em {
   width: 23.6em;
   height: 1em;
@@ -44,4 +64,22 @@
   width: 23.6rem;
   height: 1rem;
   background-color: rgb(125, 146, 240);
+}
+
+.ch {
+  width: 47.2ch;
+  height: 1em;
+  background-color: rgb(204, 54, 209);
+}
+
+.ex {
+  width: 52.8ex;
+  height: 1em;
+  background-color: rgb(185, 248, 206);
+}
+
+.vw {
+}
+
+.vh {
 }
