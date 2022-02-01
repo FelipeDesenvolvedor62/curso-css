@@ -1,0 +1,9 @@
+.boxmodel {
+    border: solid 12px red;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(127, 93, 219);
+    margin: 10px;
+    align-items: center;
+    display: flex;
+}

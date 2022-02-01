@@ -12,13 +12,17 @@
   color: rgb(18, 28, 170);
 }
 
-.selecao:checked {
-  font-size: 40px;
+.radio:checked {
+  width: 40px;
   color: green;
 }
 
-.selecao:checked {
-  height: 21px;
-  width: 21px;
-  color: blue;
+.checkbox:checked {
+  height: 40px;
+  color: green;
+}
+
+.desabilitado:disabled {
+  color: rgb(255, 0, 0);
+  background-color: brown;
 }
